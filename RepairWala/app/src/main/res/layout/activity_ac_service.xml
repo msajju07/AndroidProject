@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcService">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingTop="7dp"
+        android:background="#03A9F4"
+
+        >
+
+        <ImageButton
+
+            android:id="@+id/imageButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitStart"
+            android:src="@drawable/arrow"
+            android:tint="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="90dp"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="10dp"
+                android:text="AC Services"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000"
+                android:textSize="19dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_alignStart="@+id/l1"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:layout_below="@+id/l1"
+                android:layout_alignStart="@+id/l1"
+
+                >
+
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/ac1" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:paddingTop="4dp"
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l1"
+                android:layout_alignStart="@+id/l1"
+
+                android:id="@+id/l2"
+
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#03A9F4"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ac"
+
+                        android:tint="#FFFFFF" />
+
+                    <ImageView
+
+                        android:layout_width="18dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="6dp"
+                        android:background="#03A8F3"
+                        android:backgroundTint="#03A8F3"
+                        android:src="@drawable/ac2"
+                        android:tint="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AC Maintenance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l2"
+                android:layout_alignStart="@+id/l2"
+                android:id="@+id/l3"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#03A9F4"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ac"
+
+                        android:tint="#FFFFFF" />
+                    <ImageView
+
+                        android:layout_width="18dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="6dp"
+                        android:background="#03A8F3"
+                        android:backgroundTint="#03A8F3"
+                        android:src="@drawable/ac3"
+                        android:tint="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AC Deep Cleaning"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l3"
+                android:layout_alignStart="@+id/l3"
+                android:id="@+id/l4"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#03A9F4"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ac"
+
+                        android:tint="#FFFFFF" />
+                    <ImageView
+
+                        android:layout_width="18dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="6dp"
+                        android:background="#03A8F3"
+                        android:backgroundTint="#03A8F3"
+                        android:src="@drawable/ac4"
+                        android:tint="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Soft AC Cleaning"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l4"
+                android:layout_alignStart="@+id/l4"
+                android:id="@+id/l5"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#03A9F4"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ac"
+
+                        android:tint="#FFFFFF" />
+                    <ImageView
+
+                        android:layout_width="18dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="6dp"
+                        android:background="#03A8F3"
+                        android:backgroundTint="#03A8F3"
+                        android:src="@drawable/ac5"
+                        android:tint="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AC Duct Cleaning"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l5"
+                android:layout_alignStart="@+id/l5"
+                android:id="@+id/l6"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#03A9F4"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ac6"
+
+                        android:tint="#FFFFFF" />
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#03A8F3"
+                        android:src="@drawable/ac6a"
+                        android:tint="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AC Thermostat installation"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+            </LinearLayout>
+
+
+</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
