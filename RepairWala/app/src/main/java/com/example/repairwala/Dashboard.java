@@ -18,4 +18,10 @@ public class Dashboard extends AppCompatActivity {
 
     }
 
+    public void ElectronicClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),ElectronicService.class);
+        startActivity(intent);
+
+    }
+
 }
