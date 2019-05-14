@@ -490,7 +490,7 @@
                 android:layout_below="@+id/l8"
                 android:layout_alignStart="@+id/l8"
                 android:id="@+id/l9"
-
+                android:onClick="PlumbingClick"
                 >
 
 
@@ -532,7 +532,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Leaks, drains,"
+                        android:text="Leaks, drains, toilets, water heater.."
                         android:textSize="15dp" />
 
 

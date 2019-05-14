@@ -30,4 +30,10 @@ public class Dashboard extends AppCompatActivity {
 
     }
 
+    public void PlumbingClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),PlumbingService.class);
+        startActivity(intent);
+
+    }
+
 }
