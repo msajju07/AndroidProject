@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dashboard"
-    >
-
+    tools:context=".ElectronicService">
     <LinearLayout
         android:id="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="69dp"
-        android:background="#27AAE1"
-        android:paddingTop="20dp">
+        android:background="#E8F2A65A"
+        android:paddingTop="20dp"
+        >
 
         <ImageButton
-
+            android:onClick="Back"
             android:id="@+id/imageButton"
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -23,39 +22,27 @@
             android:layout_marginTop="5dp"
             android:backgroundTint="#00FFFFFF"
             android:scaleType="fitStart"
-            android:src="@drawable/pic"
+            android:src="@drawable/arrow"
             android:tint="#FFFFFF" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:paddingLeft="90dp">
+            android:layout_height="45dp"
+            android:paddingLeft="65dp"
+            >
 
             <TextView
 
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:fontFamily="@font/allerta"
+                android:layout_height="45dp"
+                android:fontFamily="sans-serif"
+                 android:textStyle="bold"
                 android:paddingTop="10dp"
-                android:text="Repair"
+                android:text="Electronics Repair"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#000000"
-                android:textSize="19dp"
-                android:textStyle="normal" />
-
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:fontFamily="@font/aclonica"
-                android:paddingTop="10dp"
-                android:text="Wala"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#000000"
-                android:textSize="19dp"
-                android:textStyle="bold" />
+                android:textSize="19dp" />
 
         </LinearLayout>
     </LinearLayout>
@@ -65,8 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/l1"
         android:layout_alignStart="@+id/l1"
-        android:paddingLeft="5dp"
-        android:layout_marginTop="3dp"
+
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -78,28 +64,59 @@
             <LinearLayout
 
                 android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:layout_below="@+id/l1"
+                android:layout_alignStart="@+id/l1"
+
+                >
+
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/es0" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:paddingTop="4dp"
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
                 android:layout_height="90dp"
                 android:orientation="horizontal"
                 android:layout_below="@+id/l1"
                 android:layout_alignStart="@+id/l1"
+
+                android:id="@+id/l2"
+
                 >
+
 
 
                 <LinearLayout
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#27D32E"
-                    android:paddingLeft="15dp">
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="15dp"
+                    >
+
 
                     <ImageView
 
                         android:layout_width="60dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/plant"
-
+                        android:src="@drawable/es1"
                         android:tint="#FFFFFF" />
+
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -107,14 +124,14 @@
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="15dp"
+                    android:paddingTop="12dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gardening Services"
+                        android:text="Mobile Repair"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -123,16 +140,17 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Maintenance contract, Irrigation services, Planting services"
+                        android:text="iPhone, Samsung, Sony, HTC repairs..."
                         android:textSize="15dp" />
 
 
                 </LinearLayout>
-
-
             </LinearLayout>
 
+
             <LinearLayout
+                android:paddingLeft="5dp"
+
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -148,17 +166,19 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#3F51B5"
-                    android:paddingLeft="15dp">
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="15dp"
+                    >
 
                     <ImageView
 
                         android:layout_width="60dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/appliances"
+                        android:src="@drawable/es2"
 
                         android:tint="#FFFFFF" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -166,14 +186,14 @@
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="13dp"
+                    android:paddingTop="20dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Appliances Installation"
+                        android:text="Laptop Repair"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -182,7 +202,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Dishwasher, gas cooker, washing machine.."
+                        android:text="Apple, Dell, Lenovo, Sony repairs"
                         android:textSize="15dp" />
 
 
@@ -190,6 +210,8 @@
             </LinearLayout>
 
             <LinearLayout
+                android:paddingLeft="5dp"
+
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -197,7 +219,7 @@
                 android:layout_below="@+id/l3"
                 android:layout_alignStart="@+id/l3"
                 android:id="@+id/l4"
-                android:onClick="ElectronicClick"
+
                 >
 
 
@@ -206,16 +228,18 @@
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
                     android:background="#E8F2A65A"
-                    android:paddingLeft="10dp">
+                    android:paddingLeft="15dp"
+                    >
 
                     <ImageView
 
-                        android:layout_width="70dp"
-                        android:layout_height="60dp"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/electronics"
+                        android:src="@drawable/es3"
 
                         android:tint="#FFFFFF" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -223,23 +247,23 @@
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="13dp"
+                    android:paddingTop="20dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Electronics"
+                        android:text="Tablet Repair"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <TextView
 
 
-                        android:layout_width="200dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mobile, Tablet, Laptop, Game Console Repair"
+                        android:text="Samsung tab, iPad repairs"
                         android:textSize="15dp" />
 
 
@@ -247,6 +271,8 @@
             </LinearLayout>
 
             <LinearLayout
+                android:paddingLeft="5dp"
+
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -262,15 +288,16 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#A48E5D"
-                    android:paddingLeft="15dp">
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="10dp"
+                    >
 
                     <ImageView
 
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
+                        android:layout_width="70dp"
+                        android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/homeappliances"
+                        android:src="@drawable/es4"
 
                         android:tint="#FFFFFF" />
                 </LinearLayout>
@@ -280,14 +307,14 @@
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="20dp"
+                    android:paddingTop="12dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Home Appliances Repair"
+                        android:text="Appliances Repair"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -296,9 +323,8 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Stove, washing machine repairs.."
+                        android:text="Stove, Dryer, Washing machine repars..."
                         android:textSize="15dp" />
-
 
                 </LinearLayout>
             </LinearLayout>
@@ -306,6 +332,8 @@
 
 
             <LinearLayout
+                android:paddingLeft="5dp"
+
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -321,52 +349,51 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#F7D608"
-                    android:paddingLeft="15dp">
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="15dp"
+                    >
 
                     <ImageView
 
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
+                        android:layout_width="65dp"
+                        android:layout_height="55dp"
                         android:layout_gravity="center"
+                        android:src="@drawable/es5"
 
-                        android:backgroundTint="#00FFFFFF"
-                        android:foregroundTint="#00FFFFFF"
-                        android:src="@drawable/paint"
-                        android:tint="#E6E6E6" />
+                        android:tint="#FFFFFF" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="245dp"
+                    android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="13dp"
+                    android:paddingTop="12dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Interior House Painting"
+                        android:text="CCTV Installation"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <TextView
 
 
-                        android:layout_width="wrap_content"
+                        android:layout_width="220dp"
                         android:layout_height="wrap_content"
-                        android:text="Interior House Painting per room or per unit"
+                        android:text="CCTV camera installation only, CCTV cameras with installation"
                         android:textSize="15dp" />
-
-
                 </LinearLayout>
+
+
             </LinearLayout>
 
-
-
             <LinearLayout
+                android:paddingLeft="5dp"
+
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -375,7 +402,6 @@
                 android:layout_alignStart="@+id/l6"
                 android:id="@+id/l7"
 
-                android:onClick="ACClick"
                 >
 
 
@@ -383,18 +409,18 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#27AAE1"
-                    android:paddingLeft="15dp">
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="12dp"
+                    >
 
                     <ImageView
 
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
+                        android:layout_width="65dp"
+                        android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:onClick="ACClick"
-                        android:src="@drawable/ac"
-
+                        android:src="@drawable/ess"
                         android:tint="#FFFFFF" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -409,80 +435,25 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="AC Services"
+                        android:text="Game Console Repair"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <TextView
 
-
-                        android:layout_width="wrap_content"
+                        android:layout_width="220dp"
                         android:layout_height="wrap_content"
-                        android:text="Soft, deep, dust cleaining..."
+                        android:text="Playstation, XBox, HTC VIVE repairs"
                         android:textSize="15dp" />
 
-
                 </LinearLayout>
+
+
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginTop="2dp"
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:orientation="horizontal"
-                android:layout_below="@+id/l7"
-                android:layout_alignStart="@+id/l7"
-                android:id="@+id/l8"
+                android:paddingLeft="5dp"
 
-                >
-
-
-                <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_gravity="center_vertical"
-                    android:background="#F8C63D"
-                    android:paddingLeft="15dp">
-
-                    <ImageView
-
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/electrical"
-
-                        android:tint="#FFFFFF" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="#FFFFFF"
-                    android:orientation="vertical"
-                    android:paddingTop="15dp"
-                    android:paddingLeft="20dp"
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Electrical"
-                        android:textSize="18dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Wiring, light fixtures, outlets and switches"
-                        android:textSize="15dp" />
-
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -498,15 +469,16 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#00BCD4"
-                    android:paddingLeft="15dp">
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="15dp"
+                    >
 
                     <ImageView
 
                         android:layout_width="60dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/plumbing"
+                        android:src="@drawable/es6"
 
                         android:tint="#FFFFFF" />
                 </LinearLayout>
@@ -516,32 +488,31 @@
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="20dp"
+                    android:paddingTop="12dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Plumbing"
+                        android:text="TV Repair"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <TextView
 
 
-                        android:layout_width="wrap_content"
+                        android:layout_width="220dp"
                         android:layout_height="wrap_content"
-                        android:text="Leaks, drains,"
+                        android:text="Samsung, LG, Sony, Toshiba, repairs"
                         android:textSize="15dp" />
-
-
                 </LinearLayout>
+
+
             </LinearLayout>
-
-
-
             <LinearLayout
+                android:paddingLeft="5dp"
+
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -553,20 +524,20 @@
                 >
 
 
-
                 <LinearLayout
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#4CAF50"
-                    android:paddingLeft="15dp">
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="15dp"
+                    >
 
                     <ImageView
 
                         android:layout_width="60dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/cleaning"
+                        android:src="@drawable/es7"
 
                         android:tint="#FFFFFF" />
                 </LinearLayout>
@@ -576,14 +547,14 @@
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="20dp"
+                    android:paddingTop="12dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cleaning"
+                        android:text="Printer Repair"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -592,17 +563,16 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="House, Furniture cleaning"
+                        android:text="Canon, Epson, HP, Samsung repairs..."
                         android:textSize="15dp" />
-
-
                 </LinearLayout>
+
 
             </LinearLayout>
 
-
-
             <LinearLayout
+                android:paddingLeft="5dp"
+
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -614,20 +584,91 @@
                 >
 
 
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="20dp"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/es8a"
+
+                        android:tint="#FFFFFF" />
+                    <ImageView
+
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/es8b"
+
+                        android:tint="#FFFFFF" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Windows and Mac Support"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OS restoration, software, file backup..."
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l11"
+                android:layout_alignStart="@+id/l11"
+                android:id="@+id/l12"
+
+                >
+
 
                 <LinearLayout
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#8BC24A"
-                    android:paddingLeft="15dp">
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="22dp"
+                    >
 
                     <ImageView
 
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
+                        android:layout_width="45dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/pest"
+                        android:src="@drawable/es9"
 
                         android:tint="#FFFFFF" />
                 </LinearLayout>
@@ -644,7 +685,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pest Control"
+                        android:text="Wifi Support"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -653,13 +694,167 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bed bugs/fleas, rodents"
+                        android:text="Wifi dignosis, wifi extension..."
                         android:textSize="15dp" />
 
-
                 </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l12"
+                android:layout_alignStart="@+id/l12"
+                android:id="@+id/l13"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/es10"
+
+                        android:tint="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Speaker Repair"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
             </LinearLayout>
 
+            <LinearLayout
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l13"
+                android:layout_alignStart="@+id/l13"
+                android:id="@+id/l14"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="17dp"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/es11"
+
+                        android:tint="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USB / HArd Drive Recovery"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l14"
+                android:layout_alignStart="@+id/l14"
+                android:id="@+id/l15"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#E8F2A65A"
+                    android:paddingLeft="15dp"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/es13"
+
+                        android:tint="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Electronic Watch Repair"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

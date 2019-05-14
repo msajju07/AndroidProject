@@ -9,7 +9,6 @@
     >
 
     <Button
-
         android:layout_gravity="center_vertical"
         android:id="@+id/button"
         android:layout_width="match_parent"
