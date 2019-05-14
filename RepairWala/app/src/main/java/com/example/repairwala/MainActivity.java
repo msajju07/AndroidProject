@@ -14,10 +14,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void Click(View v){
-        Intent intent =  new Intent(getApplicationContext(),Dashboard.class);
+    public void Login(View v){
+        Intent intent =  new Intent(getApplicationContext(),login.class);
         startActivity(intent);
 
     }
+
 
 }

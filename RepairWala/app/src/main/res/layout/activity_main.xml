@@ -17,6 +17,6 @@
         android:text="Button"
         tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="341dp"
-        android:onClick="Click"
+        android:onClick="Login"
         />
 </LinearLayout>
