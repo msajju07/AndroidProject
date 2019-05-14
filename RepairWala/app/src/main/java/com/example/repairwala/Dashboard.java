@@ -24,4 +24,10 @@ public class Dashboard extends AppCompatActivity {
 
     }
 
+    public void CleaningClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),CleaningService.class);
+        startActivity(intent);
+
+    }
+
 }
