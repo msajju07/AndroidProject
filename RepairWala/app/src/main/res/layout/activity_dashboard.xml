@@ -433,7 +433,7 @@
                 android:layout_below="@+id/l7"
                 android:layout_alignStart="@+id/l7"
                 android:id="@+id/l8"
-
+                android:onClick="ElectricalClick"
                 >
 
 
@@ -441,7 +441,7 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#F8C63D"
+                    android:background="#FCB44D"
                     android:paddingLeft="15dp">
 
                     <ImageView

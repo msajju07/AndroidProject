@@ -36,4 +36,9 @@ public class Dashboard extends AppCompatActivity {
 
     }
 
+    public void ElectricalClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),ElectricalService.class);
+        startActivity(intent);
+
+    }
 }
