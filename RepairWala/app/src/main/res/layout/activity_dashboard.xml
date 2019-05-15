@@ -433,7 +433,7 @@
                 android:layout_below="@+id/l7"
                 android:layout_alignStart="@+id/l7"
                 android:id="@+id/l8"
-
+                android:onClick="ElectricalClick"
                 >
 
 
@@ -441,7 +441,7 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#F8C63D"
+                    android:background="#FCB44D"
                     android:paddingLeft="15dp">
 
                     <ImageView
@@ -490,7 +490,7 @@
                 android:layout_below="@+id/l8"
                 android:layout_alignStart="@+id/l8"
                 android:id="@+id/l9"
-
+                android:onClick="PlumbingClick"
                 >
 
 
@@ -532,7 +532,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Leaks, drains,"
+                        android:text="Leaks, drains, toilets, water heater.."
                         android:textSize="15dp" />
 
 
@@ -549,7 +549,7 @@
                 android:layout_below="@+id/l9"
                 android:layout_alignStart="@+id/l9"
                 android:id="@+id/l10"
-
+                android:onClick="CleaningClick"
                 >
 
 
@@ -558,7 +558,7 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#4CAF50"
+                    android:background="#69A34F"
                     android:paddingLeft="15dp">
 
                     <ImageView

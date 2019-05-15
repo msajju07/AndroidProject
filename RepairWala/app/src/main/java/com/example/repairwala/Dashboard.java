@@ -24,4 +24,21 @@ public class Dashboard extends AppCompatActivity {
 
     }
 
+    public void CleaningClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),CleaningService.class);
+        startActivity(intent);
+
+    }
+
+    public void PlumbingClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),PlumbingService.class);
+        startActivity(intent);
+
+    }
+
+    public void ElectricalClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),ElectricalService.class);
+        startActivity(intent);
+
+    }
 }

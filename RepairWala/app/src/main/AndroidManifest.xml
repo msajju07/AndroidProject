@@ -9,15 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ElectronicService"
+        <activity android:name=".ElectricalService"
             android:theme="@style/AppTheme.NoActionBar"
             ></activity>
-        <activity android:name=".register"
-            android:theme="@style/AppTheme.NoActionBar"
-            />
-        <activity android:name=".login"
-            android:theme="@style/AppTheme.NoActionBar"
-            />
+        <activity
+            android:name=".PlumbingService"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CleaningService"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ElectronicService"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AcService"
             android:theme="@style/AppTheme.NoActionBar" />
