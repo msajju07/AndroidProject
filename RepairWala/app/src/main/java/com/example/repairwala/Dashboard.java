@@ -41,4 +41,10 @@ public class Dashboard extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void GardeningClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),GardeningService.class);
+        startActivity(intent);
+
+    }
+
 }
