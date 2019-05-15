@@ -56,5 +56,15 @@ public class Dashboard extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void PaintClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),PaintingService.class);
+        startActivity(intent);
+
+    }
+    public void PestCClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),PestControl.class);
+        startActivity(intent);
+
+    }
 
 }

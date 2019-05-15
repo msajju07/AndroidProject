@@ -545,7 +545,7 @@
                 android:layout_alignStart="@+id/l9"
                 android:id="@+id/l10"
 
-
+                android:onClick="PaintClick"
 
                 >
 
@@ -554,7 +554,7 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#F7D608"
+                    android:background="#E6BB0C"
                     android:paddingLeft="15dp">
 
                     <ImageView
@@ -609,7 +609,7 @@
                 android:layout_below="@+id/l10"
                 android:layout_alignStart="@+id/l10"
                 android:id="@+id/l11"
-
+                android:onClick="PestCClick"
                 >
 
 
@@ -618,7 +618,7 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#8BC24A"
+                    android:background="#77A73F"
                     android:paddingLeft="15dp">
 
                     <ImageView
