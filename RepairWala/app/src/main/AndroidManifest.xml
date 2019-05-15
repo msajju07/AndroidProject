@@ -16,6 +16,13 @@
         <activity
             android:name=".ElectricalService"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GardeningService"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+        <activity
+            android:name=".ElectricalService"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PlumbingService"
             android:theme="@style/AppTheme.NoActionBar" />
