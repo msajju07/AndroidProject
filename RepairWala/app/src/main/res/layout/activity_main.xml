@@ -5,17 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-
+    android:orientation="vertical"
     >
 
     <Button
-        android:layout_gravity="center_vertical"
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="341dp"
+        android:text="Login"
         android:onClick="Login"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dashbaord Stats"
+        android:onClick="DStats"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services Stats"
+        android:onClick="SStats"
+        />
+
+
 </LinearLayout>
