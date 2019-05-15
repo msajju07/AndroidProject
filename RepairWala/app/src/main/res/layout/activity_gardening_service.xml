@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GardeningService">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="#4CAF50"
+        android:paddingTop="20dp">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="Back"
+            android:scaleType="fitStart"
+            android:src="@drawable/arrow"
+            android:tint="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="65dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif"
+                android:paddingTop="10dp"
+                android:text="Gardening Services"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_alignStart="@+id/l1"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+
+        android:layout_below="@+id/l1"
+        android:layout_alignStart="@+id/l1"
+
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="fitXY"
+
+            android:src="@drawable/gardenings" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_alignStart="@+id/l1"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+
+        android:id="@+id/l2"
+
+        >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Gardening Maintenace Contract will include the following job/tasks per visit:"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Lawn Edging"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Trimming Trees"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Lawn Mowing"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Plant Waste Disposal"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Lawn Insect Control"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Dead Leaves Removal"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Potted Plants Maintenance (Watering, cutting  edges, waste disposal etc...)"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Irrigation System Checking"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Weeds Removal"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l2"
+            android:layout_alignStart="@+id/l2"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+
+            android:id="@+id/l3"
+
+            >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Irrigation System One Time Job Service Inclusion:"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Labour Cost Only"
+                android:textSize="14dp"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note: "
+                android:textSize="14dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materials will be charged separately"
+                android:textSize="14dp"
+
+                /></LinearLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l3"
+            android:layout_alignStart="@+id/l3"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+
+            android:id="@+id/l4"
+
+            >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Planting Services Inclusions:"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Planting Service Cost (Labor) only"
+                android:textSize="14dp"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Note: "
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price will be changed according to the selected plant type"
+                    android:textSize="14dp"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"></LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout></ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginRight="4dp"
+
+        android:background="#4CAF50"
+        android:fadeScrollbars="false"
+        android:gravity="center"
+        android:text="Continue"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>

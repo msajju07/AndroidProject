@@ -82,14 +82,17 @@
                 android:orientation="horizontal"
                 android:layout_below="@+id/l1"
                 android:layout_alignStart="@+id/l1"
+                android:onClick="CleaningClick"
                 >
+
+
 
 
                 <LinearLayout
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#27D32E"
+                    android:background="#69A34F"
                     android:paddingLeft="15dp">
 
                     <ImageView
@@ -97,7 +100,7 @@
                         android:layout_width="60dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/plant"
+                        android:src="@drawable/cleaning"
 
                         android:tint="#FFFFFF" />
                 </LinearLayout>
@@ -107,14 +110,14 @@
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="15dp"
+                    android:paddingTop="20dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gardening Services"
+                        android:text="Cleaning"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -123,13 +126,11 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Maintenance contract, Irrigation services, Planting services"
+                        android:text="House, Furniture cleaning"
                         android:textSize="15dp" />
 
 
                 </LinearLayout>
-
-
             </LinearLayout>
 
             <LinearLayout
@@ -140,66 +141,8 @@
                 android:layout_below="@+id/l2"
                 android:layout_alignStart="@+id/l2"
                 android:id="@+id/l3"
-
-                >
-
-
-                <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_gravity="center_vertical"
-                    android:background="#3F51B5"
-                    android:paddingLeft="15dp">
-
-                    <ImageView
-
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/appliances"
-
-                        android:tint="#FFFFFF" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="#FFFFFF"
-                    android:orientation="vertical"
-                    android:paddingTop="13dp"
-                    android:paddingLeft="20dp"
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Appliances Installation"
-                        android:textSize="18dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Dishwasher, gas cooker, washing machine.."
-                        android:textSize="15dp" />
-
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_marginTop="2dp"
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:orientation="horizontal"
-                android:layout_below="@+id/l3"
-                android:layout_alignStart="@+id/l3"
-                android:id="@+id/l4"
                 android:onClick="ElectronicClick"
                 >
-
 
                 <LinearLayout
                     android:layout_width="90dp"
@@ -244,6 +187,7 @@
 
 
                 </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -251,130 +195,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
                 android:orientation="horizontal"
-                android:layout_below="@+id/l4"
-                android:layout_alignStart="@+id/l4"
-                android:id="@+id/l5"
-
-                >
-
-
-                <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_gravity="center_vertical"
-                    android:background="#A48E5D"
-                    android:paddingLeft="15dp">
-
-                    <ImageView
-
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/homeappliances"
-
-                        android:tint="#FFFFFF" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="#FFFFFF"
-                    android:orientation="vertical"
-                    android:paddingTop="20dp"
-                    android:paddingLeft="20dp"
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Home Appliances Repair"
-                        android:textSize="18dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Stove, washing machine repairs.."
-                        android:textSize="15dp" />
-
-
-                </LinearLayout>
-            </LinearLayout>
-
-
-
-            <LinearLayout
-                android:layout_marginTop="2dp"
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:orientation="horizontal"
-                android:layout_below="@+id/l5"
-                android:layout_alignStart="@+id/l5"
-                android:id="@+id/l6"
-
-                >
-
-
-                <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_gravity="center_vertical"
-                    android:background="#F7D608"
-                    android:paddingLeft="15dp">
-
-                    <ImageView
-
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-
-                        android:backgroundTint="#00FFFFFF"
-                        android:foregroundTint="#00FFFFFF"
-                        android:src="@drawable/paint"
-                        android:tint="#E6E6E6" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="245dp"
-                    android:layout_height="90dp"
-                    android:background="#FFFFFF"
-                    android:orientation="vertical"
-                    android:paddingTop="13dp"
-                    android:paddingLeft="20dp"
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Interior House Painting"
-                        android:textSize="18dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Interior House Painting per room or per unit"
-                        android:textSize="15dp" />
-
-
-                </LinearLayout>
-            </LinearLayout>
-
-
-
-            <LinearLayout
-                android:layout_marginTop="2dp"
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:orientation="horizontal"
-                android:layout_below="@+id/l6"
-                android:layout_alignStart="@+id/l6"
-                android:id="@+id/l7"
-
+                android:layout_below="@+id/l3"
+                android:layout_alignStart="@+id/l3"
+                android:id="@+id/l4"
                 android:onClick="ACClick"
                 >
 
@@ -430,12 +253,72 @@
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
                 android:orientation="horizontal"
-                android:layout_below="@+id/l7"
-                android:layout_alignStart="@+id/l7"
-                android:id="@+id/l8"
-                android:onClick="ElectricalClick"
+                android:layout_below="@+id/l4"
+                android:layout_alignStart="@+id/l4"
+                android:id="@+id/l5"
+                android:onClick="GardeningClick"
                 >
 
+
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#4CAF50"
+                    android:paddingLeft="15dp">
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/plant"
+
+                        android:tint="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gardening Services"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maintenance contract, Irrigation services, Planting services"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l5"
+                android:layout_alignStart="@+id/l5"
+                android:id="@+id/l6"
+                android:onClick="ElectricalClick"
+                >
 
                 <LinearLayout
                     android:layout_width="90dp"
@@ -482,6 +365,126 @@
                 </LinearLayout>
             </LinearLayout>
 
+
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l6"
+                android:layout_alignStart="@+id/l6"
+                android:id="@+id/l7"
+
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#3F51B5"
+                    android:paddingLeft="15dp">
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/appliances"
+
+                        android:tint="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="13dp"
+                    android:paddingLeft="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Appliances Installation"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dishwasher, gas cooker, washing machine.."
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/l7"
+                android:layout_alignStart="@+id/l7"
+                android:id="@+id/l8"
+                >
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#A48E5D"
+                    android:paddingLeft="15dp">
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/homeappliances"
+
+                        android:tint="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Appliances Repair"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stove, washing machine repairs.."
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+        </LinearLayout>
+
             <LinearLayout
                 android:layout_marginTop="2dp"
                 android:layout_width="match_parent"
@@ -491,9 +494,8 @@
                 android:layout_alignStart="@+id/l8"
                 android:id="@+id/l9"
                 android:onClick="PlumbingClick"
+
                 >
-
-
                 <LinearLayout
                     android:layout_width="90dp"
                     android:layout_height="90dp"
@@ -537,6 +539,7 @@
 
 
                 </LinearLayout>
+
             </LinearLayout>
 
 
@@ -549,16 +552,17 @@
                 android:layout_below="@+id/l9"
                 android:layout_alignStart="@+id/l9"
                 android:id="@+id/l10"
-                android:onClick="CleaningClick"
-                >
 
+
+
+                >
 
 
                 <LinearLayout
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
-                    android:background="#69A34F"
+                    android:background="#F7D608"
                     android:paddingLeft="15dp">
 
                     <ImageView
@@ -566,24 +570,26 @@
                         android:layout_width="60dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/cleaning"
 
-                        android:tint="#FFFFFF" />
+                        android:backgroundTint="#00FFFFFF"
+                        android:foregroundTint="#00FFFFFF"
+                        android:src="@drawable/paint"
+                        android:tint="#E6E6E6" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="245dp"
                     android:layout_height="90dp"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:paddingTop="20dp"
+                    android:paddingTop="13dp"
                     android:paddingLeft="20dp"
                     >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cleaning"
+                        android:text="Interior House Painting"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -592,11 +598,12 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="House, Furniture cleaning"
+                        android:text="Interior House Painting per room or per unit"
                         android:textSize="15dp" />
 
 
                 </LinearLayout>
+
 
             </LinearLayout>
 
@@ -659,7 +666,9 @@
 
                 </LinearLayout>
             </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"></LinearLayout>
         </LinearLayout>
     </ScrollView>
 
