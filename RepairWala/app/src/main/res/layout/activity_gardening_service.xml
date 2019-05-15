@@ -92,12 +92,12 @@
         android:orientation="vertical"
         android:paddingTop="20dp"
         android:paddingLeft="15dp"
-
         android:id="@+id/l2"
 
         >
 
             <TextView
+                android:padding="3dp"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="Gardening Maintenace Contract will include the following job/tasks per visit:"
@@ -107,6 +107,7 @@
                 />
 
             <TextView
+                android:layout_marginTop="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Lawn Edging"
@@ -114,6 +115,8 @@
 
                 />
             <TextView
+
+                android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Trimming Trees"
@@ -121,6 +124,7 @@
 
                 />
             <TextView
+                android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Lawn Mowing"
@@ -128,6 +132,7 @@
 
                 />
             <TextView
+                android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Plant Waste Disposal"
@@ -135,6 +140,7 @@
 
                 />
             <TextView
+                android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Lawn Insect Control"
@@ -142,6 +148,7 @@
 
                 />
             <TextView
+                android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Dead Leaves Removal"
@@ -149,6 +156,7 @@
 
                 />
             <TextView
+                android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Potted Plants Maintenance (Watering, cutting  edges, waste disposal etc...)"
@@ -156,6 +164,7 @@
 
                 />
             <TextView
+                android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Irrigation System Checking"
@@ -163,6 +172,7 @@
 
                 />
             <TextView
+                android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Weeds Removal"
@@ -185,7 +195,7 @@
             >
 
             <TextView
-                android:layout_width="300dp"
+                android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:text="Irrigation System One Time Job Service Inclusion:"
                 android:textSize="14dp"
@@ -194,6 +204,7 @@
                 />
 
             <TextView
+                android:layout_marginTop="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Labour Cost Only"
@@ -206,6 +217,7 @@
                 android:orientation="horizontal"
                 >
             <TextView
+                android:layout_marginTop="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Note: "
@@ -215,6 +227,7 @@
                 />
 
             <TextView
+                android:layout_marginTop="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Materials will be charged separately"
@@ -246,6 +259,7 @@
                 />
 
             <TextView
+                android:layout_marginTop="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-Planting Service Cost (Labor) only"
@@ -258,6 +272,7 @@
                 android:orientation="horizontal"
                 >
                 <TextView
+                    android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Note: "
@@ -267,6 +282,7 @@
                     />
 
                 <TextView
+                    android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Price will be changed according to the selected plant type"

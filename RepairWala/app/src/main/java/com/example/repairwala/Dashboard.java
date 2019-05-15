@@ -46,5 +46,15 @@ public class Dashboard extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void HApplClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),HomeAppliance.class);
+        startActivity(intent);
+
+    }
+    public void HApplReClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),HomeApplianceR.class);
+        startActivity(intent);
+
+    }
 
 }

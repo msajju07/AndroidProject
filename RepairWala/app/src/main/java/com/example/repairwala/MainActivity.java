@@ -19,6 +19,17 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void DStats(View v){
+        Intent intent =  new Intent(getApplicationContext(),dashboard_stats.class);
+        startActivity(intent);
 
+    }
+    public void SStats(View v){
+        Intent intent =  new Intent(getApplicationContext(),service_stats.class);
+        startActivity(intent);
+
+    }
 
 }
+
+
