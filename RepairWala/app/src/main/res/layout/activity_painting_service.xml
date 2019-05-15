@@ -1,9 +1,231 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PaintingService">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="#E6BB0C"
+        android:paddingTop="20dp">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="Back"
+            android:scaleType="fitStart"
+            android:src="@drawable/arrow"
+            android:tint="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="40dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-medium"
+
+                android:paddingTop="10dp"
+                android:text="Interior House Painting"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000"
+                android:textSize="19dp"
+              />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_alignStart="@+id/l1"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+
+                android:layout_below="@+id/l1"
+                android:layout_alignStart="@+id/l1"
+
+                >
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/painting" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l1"
+                android:layout_alignStart="@+id/l1"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="15dp"
+                android:id="@+id/l2"
+
+                >
+
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Standard Interior Painting Includes:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+
+                    android:text="-Best in class professional specialist"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-Pre-paint Premise arrangement"
+                    android:textSize="14dp"
+
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-Surface Preparation and Minor Crack Repair"
+                    android:textSize="14dp"
+
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-Paint Application - Jotun Fenomatic or similar (off-white and white only)"
+                    android:textSize="14dp"
+
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-Post-Paint Cleanup and work completion report"
+                    android:textSize="14dp"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Extra Charges Apply for:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginTop="3dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="-Specail requests for colored walls will be priced based on survey and choice of customer"
+                    android:textSize="14dp"
+
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-Major Cracks Repair/Wet wall repair"
+                    android:textSize="14dp"
+
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginTop="3dp"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:text="-Prices for other colors than off-white and white will be shared post survey as a quote"
+                    android:textSize="14dp"
+
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-Ceilings and Balcony"
+                    android:textSize="14dp"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"></LinearLayout>
+        </LinearLayout></ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginRight="4dp"
+
+        android:background="#4CAF50"
+        android:fadeScrollbars="false"
+        android:gravity="center"
+        android:text="Continue"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
