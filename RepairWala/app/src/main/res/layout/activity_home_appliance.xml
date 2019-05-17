@@ -117,47 +117,112 @@
                     android:fontFamily="sans-serif"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
 
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
                     android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
-                    android:text="-Assembly of 1 cusotmer-supplied home appliance as per product instuctions"
+                    android:text="Assembly of 1 cusotmer-supplied home appliance as per product instuctions"
                     android:textSize="14dp"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
 
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
                     android:layout_marginTop="1dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-Testing/Turning on the installed appliance to ensure proper functionaltiy"
+                    android:text="Testing/Turning on the installed appliance to ensure proper functionaltiy"
                     android:textSize="14dp"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
-
-                    android:layout_marginTop="1dp"
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-Removal of packaging materials to customer's bin"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
+                    android:layout_marginTop="1dp"
+                        android:layout_width="300dp"
+
+                        android:layout_height="wrap_content"
+                    android:text="Removal of packaging materials to customer's bin"
                     android:textSize="14dp"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
-
-                    android:layout_marginTop="1dp"
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-Products requiring additional work may result in an updated estimate from provider"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
+                    android:layout_marginTop="1dp"
+                        android:layout_width="300dp"
+
+                        android:layout_height="wrap_content"
+                    android:text="Products requiring additional work may result in an updated estimate from provider"
                     android:textSize="14dp"
 
                     />
-
+                </LinearLayout>
                 <TextView
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
@@ -168,15 +233,31 @@
                     android:fontFamily="sans-serif"
 
                     />
-                <TextView
-                    android:layout_marginTop="3dp"
-                    android:layout_marginLeft="20dp"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-Wall cutting or any other civil works"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wall cutting or any other civil works"
                     android:textSize="14dp"
 
                     />
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -189,7 +270,7 @@
         android:layout_marginTop="560dp"
         android:layout_marginRight="4dp"
 
-        android:background="#4CAF50"
+        android:background="#37469D"
         android:fadeScrollbars="false"
         android:gravity="center"
         android:text="Continue"
