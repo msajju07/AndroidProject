@@ -17,5 +17,34 @@ public class AcService extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void AcDCleaning(View v){
+        Intent intent =  new Intent(getApplicationContext(),AcDCleaning.class);
+        startActivity(intent);
+
+    }
+
+    public void AcM(View v){
+        Intent intent =  new Intent(getApplicationContext(),AcMaintenace.class);
+        startActivity(intent);
+
+    }
+    public void AcDuctCleaning(View v){
+        Intent intent =  new Intent(getApplicationContext(),AcDuctCleaning.class);
+        startActivity(intent);
+
+    }
+    public void AcThermoInstall(View v){
+        Intent intent =  new Intent(getApplicationContext(),AcThermoInstall.class);
+        startActivity(intent);
+
+    }
+    public void AcSCleaning(View v){
+        Intent intent =  new Intent(getApplicationContext(),AcSCleaning.class);
+        startActivity(intent);
+
+    }
+
+
+
 
 }

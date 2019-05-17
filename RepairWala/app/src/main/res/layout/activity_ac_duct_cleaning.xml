@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BathroomCleaning">
+    tools:context=".AcDuctCleaning">
+
     <LinearLayout
         android:id="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="69dp"
-        android:background="#69A34F"
+        android:background="#27AAE1"
         android:paddingTop="20dp">
 
 
@@ -28,7 +29,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingLeft="50dp"
+            android:paddingLeft="64dp"
             >
 
             <TextView
@@ -38,7 +39,7 @@
                 android:fontFamily="sans-serif-medium"
 
                 android:paddingTop="10dp"
-                android:text="Bathroom Deep Cleaning"
+                android:text="AC Duct Cleaning"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#000000"
@@ -79,7 +80,7 @@
 
                     android:scaleType="fitXY"
 
-                    android:src="@drawable/bcleaning" />
+                    android:src="@drawable/acs4" />
             </LinearLayout>
 
 
@@ -101,7 +102,7 @@
                     android:padding="3dp"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
-                    android:text="Bathroom Deep Cleaning Includes:"
+                    android:text="AC Duct Cleaning Service Includes"
                     android:textSize="14dp"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif"
@@ -123,15 +124,15 @@
 
                         />
 
-                <TextView
-                    android:layout_marginLeft="3dp"
-                    android:text="Cleaning of light fixtures, plumbing fixtures, and geysers"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14dp"
+                    <TextView
+                        android:layout_marginLeft="3dp"
+                        android:text="Thorough inspection of air ducts"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
 
-                    />
+                        />
                 </LinearLayout>
 
                 <LinearLayout
@@ -152,13 +153,13 @@
 
                     <TextView
                         android:padding="3dp"
-                    android:text="Cleaning of windows and ventilators, ceiling fans, exhaust fans, kitchen tiles and switchboards"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14dp"
+                        android:text="DRemoval of dirt, debris, and contaminants"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
 
-                    />
+                        />
 
                 </LinearLayout>
 
@@ -180,13 +181,13 @@
 
                     <TextView
                         android:padding="3dp"
-                    android:text="Chemical cleaning based on type pf material like granite, marble, steel, or metal surfaces"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14dp"
+                        android:text="Cleaning and Sanitization of air ducts thorugh Special Duct Cleaning Machines "
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
 
-                    />
+                        />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -206,53 +207,15 @@
 
                     <TextView
                         android:padding="3dp"
-                    android:text="Grout, grime removal and tile scrubbing "
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14dp"
-
-
-                    />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
+                        android:text="Reassembly and clean up"
                         android:layout_marginTop="3dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="16dp"
+                        android:textSize="14dp"
 
 
                         />
-
-                    <TextView
-                        android:padding="3dp"
-                    android:text="Walls dusting and wet cleaning"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14dp"
-
-                    />
                 </LinearLayout>
-
-
-                <TextView
-                    android:layout_marginLeft="20dp"
-                    android:text="*Cleaning of utensils is not included"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14dp"
-                    android:textStyle="bold"
-                    />
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -266,7 +229,7 @@
         android:layout_marginTop="560dp"
         android:layout_marginRight="4dp"
 
-        android:background="#69A34F"
+        android:background="#27AAE1"
         android:fadeScrollbars="false"
         android:gravity="center"
         android:text="Continue"

@@ -95,7 +95,7 @@
                 android:layout_alignStart="@+id/l1"
 
                 android:id="@+id/l2"
-
+                android:onClick="AcM"
                 >
 
 
@@ -163,7 +163,7 @@
                 android:layout_below="@+id/l2"
                 android:layout_alignStart="@+id/l2"
                 android:id="@+id/l3"
-
+                android:onClick="AcDCleaning"
                 >
 
 
@@ -226,7 +226,7 @@
                 android:layout_below="@+id/l3"
                 android:layout_alignStart="@+id/l3"
                 android:id="@+id/l4"
-
+                android:onClick="AcSCleaning"
                 >
 
 
@@ -288,7 +288,7 @@
                 android:layout_below="@+id/l4"
                 android:layout_alignStart="@+id/l4"
                 android:id="@+id/l5"
-
+                android:onClick="AcDuctCleaning"
                 >
 
 
@@ -354,7 +354,7 @@
                 android:layout_below="@+id/l5"
                 android:layout_alignStart="@+id/l5"
                 android:id="@+id/l6"
-
+                android:onClick="AcThermoInstall"
                 >
 
 

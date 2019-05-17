@@ -9,18 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BathroomCleaning"
-            android:theme="@style/AppTheme.NoActionBar"
+        <activity android:name=".AcThermoInstall"
+            android:theme="@style/AppTheme.NoActionBar11"
             ></activity>
-        <activity android:name=".KitchenCleaning"
-            android:theme="@style/AppTheme.NoActionBar"
+        <activity android:name=".AcDuctCleaning"
+            android:theme="@style/AppTheme.NoActionBar11"
             />
-        <activity android:name=".FurnitureCleaning"
-            android:theme="@style/AppTheme.NoActionBar"
-            />
-        <activity android:name=".HouseCleaning"
-            android:theme="@style/AppTheme.NoActionBar"
-            />
+        <activity android:name=".AcSCleaning"
+            android:theme="@style/AppTheme.NoActionBar11"/>
+        <activity android:name=".AcDCleaning"
+            android:theme="@style/AppTheme.NoActionBar11"/>
+        <activity android:name=".AcMaintenace"
+            android:theme="@style/AppTheme.NoActionBar11"/>
+        <activity
+            android:name=".BathroomCleaning"
+            android:theme="@style/AppTheme.NoActionBar1" />
+        <activity
+            android:name=".KitchenCleaning"
+            android:theme="@style/AppTheme.NoActionBar1" />
+        <activity
+            android:name=".FurnitureCleaning"
+            android:theme="@style/AppTheme.NoActionBar1" />
+        <activity
+            android:name=".HouseCleaning"
+            android:theme="@style/AppTheme.NoActionBar1" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
@@ -32,16 +44,16 @@
         </activity>
         <activity
             android:name=".PestControl"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar3" />
         <activity
             android:name=".PaintingService"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar4" />
         <activity
             android:name=".HomeApplianceR"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar5" />
         <activity
             android:name=".HomeAppliance"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar6" />
         <activity
             android:name=".service_stats"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -50,20 +62,19 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ElectricalService"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar7" />
         <activity
             android:name=".GardeningService"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar8" />
         <activity
             android:name=".PlumbingService"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar9" />
         <activity
             android:name=".CleaningService"
-            android:theme="@style/AppTheme.NoActionBar"
-            />
+            android:theme="@style/AppTheme.NoActionBar10" />
         <activity
             android:name=".ElectronicService"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar2" />
         <activity
             android:name=".register"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -72,7 +83,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AcService"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar11" />
         <activity
             android:name=".Dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
