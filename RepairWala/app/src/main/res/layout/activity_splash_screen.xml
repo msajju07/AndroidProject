@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/splash"
+    android:background="#27AAE1"
     tools:context=".SplashScreen">
 
     <ImageView
-        android:layout_marginTop="90dp"
         android:id="@+id/imageView2"
         android:layout_width="246dp"
         android:layout_height="154dp"
         android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:tint="#FFFFFF"
         app:srcCompat="@drawable/icon" />
 
     <ProgressBar

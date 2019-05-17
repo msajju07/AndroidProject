@@ -107,46 +107,110 @@
                     android:textStyle="bold"
                     android:fontFamily="sans-serif"
                     />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
 
-                <TextView
-                    android:layout_marginLeft="20dp"
-                    android:text="- Inspection of home to determine extend of household pest control issue"
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
+                    android:text="Inspection of home to determine extend of household pest control issue"
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14dp"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
 
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
                     android:layout_marginTop="3dp"
                     android:layout_width="280dp"
                     android:layout_height="wrap_content"
-                    android:text="- Placing household pest control treatment in areas attractive to pests"
+                    android:text="Placing household pest control treatment in areas attractive to pests"
                     android:textSize="14dp"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
 
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
                     android:layout_marginTop="1dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="- Household pest control treatment of doors, windows, and home exterior"
+                    android:text="Household pest control treatment of doors, windows, and home exterior"
                     android:textSize="14dp"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
 
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
                     android:layout_marginTop="1dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="- Inclusion of pest trap placement, if requested"
+                    android:text="Inclusion of pest trap placement, if requested"
                     android:textSize="14dp"
 
                     />
+                </LinearLayout>
 
                 <TextView
                     android:layout_marginTop="10dp"
@@ -158,36 +222,84 @@
                     android:fontFamily="sans-serif"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
 
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
                     android:layout_marginTop="3dp"
                     android:layout_width="280dp"
                     android:layout_height="wrap_content"
-                    android:text="- Please remove all the food items and utensils form kitchen cupboard and cabinets and cover properly before the service."
+                    android:text="Please remove all the food items and utensils form kitchen cupboard and cabinets and cover properly before the service."
                     android:textSize="14dp"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
 
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
                     android:layout_marginTop="3dp"
                     android:layout_width="280dp"
                     android:layout_height="wrap_content"
-                    android:text="- Please remove all clothes from wardrobe if a spray treatment is required for wardrobe too."
+                    android:text="Please remove all clothes from wardrobe if a spray treatment is required for wardrobe too."
                     android:textSize="14dp"
 
                     />
-                <TextView
-                    android:layout_marginLeft="20dp"
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
                     android:layout_marginTop="3dp"
                     android:layout_width="280dp"
                     android:layout_height="wrap_content"
-                    android:text="- Once sprayed, the premises should be vacant 3-4 hours. "
+                    android:text="Once sprayed, the premises should be vacant 3-4 hours. "
                     android:textSize="14dp"
 
                     />
-
+                </LinearLayout>
 
             </LinearLayout>
 <LinearLayout
@@ -202,7 +314,8 @@
         android:layout_marginTop="560dp"
         android:layout_marginRight="4dp"
 
-        android:background="#4CAF50"
+        android:background="#77A73F"
+
         android:fadeScrollbars="false"
         android:gravity="center"
         android:text="Continue"

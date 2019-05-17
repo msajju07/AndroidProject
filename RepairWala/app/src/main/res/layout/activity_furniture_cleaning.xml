@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeApplianceR">
-
+    tools:context=".FurnitureCleaning">
     <LinearLayout
         android:id="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="69dp"
-        android:background="#A58E5E"
+        android:background="#69A34F"
         android:paddingTop="20dp">
 
 
@@ -29,7 +28,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingLeft="45dp">
+            android:paddingLeft="70dp"
+            >
 
             <TextView
 
@@ -38,12 +38,12 @@
                 android:fontFamily="sans-serif-medium"
 
                 android:paddingTop="10dp"
-                android:text="Home Appliances Repair"
+                android:text="Furniture Cleaning"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#000000"
                 android:textSize="19dp"
-/>
+                />
 
         </LinearLayout>
     </LinearLayout>
@@ -79,7 +79,7 @@
 
                     android:scaleType="fitXY"
 
-                    android:src="@drawable/happr" />
+                    android:src="@drawable/fcleaning" />
             </LinearLayout>
 
 
@@ -93,53 +93,102 @@
                 android:orientation="vertical"
                 android:paddingTop="20dp"
                 android:paddingLeft="15dp"
-
                 android:id="@+id/l2"
 
                 >
 
                 <TextView
+                    android:padding="3dp"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
-                    android:text="Notes:"
-
+                    android:text="This service is provided by trained and trusted furniture cleaning companies"
                     android:textSize="14dp"
-                    android:textStyle="bold"
                     android:fontFamily="sans-serif"
                     />
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="8dp">
+                    android:orientation="horizontal"
+                    >
                     <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1. Inspection only is 2500 PKR"
-                        android:textSize="14dp"
+                        android:textSize="16dp"
+
 
                         />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2. Inspection + Repair is 4000 PKR"
-                        android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="Dry vacuuming of the furniture article"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
 
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="3. Parts cost is not included"
-                        android:textSize="14dp"
-
-                        />
-
+                    />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
+                    android:text="Srubbing and brushing the furniture with a specialized chemical solution"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="3dp"
+                    android:text="Wet vacuuming the furniture to remove dirty water stains"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+
+                    />
+                </LinearLayout>
+
             </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
+
+        </LinearLayout></ScrollView>
 
     <Button
         android:layout_width="match_parent"
@@ -147,7 +196,8 @@
         android:layout_marginLeft="4dp"
         android:layout_marginTop="560dp"
         android:layout_marginRight="4dp"
-        android:background="#A58E5E"
+
+        android:background="#69A34F"
         android:fadeScrollbars="false"
         android:gravity="center"
         android:text="Continue"

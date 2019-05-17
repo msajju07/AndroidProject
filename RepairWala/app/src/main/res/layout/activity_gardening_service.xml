@@ -106,95 +106,246 @@
                 android:fontFamily="sans-serif"
                 />
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"
 
                 android:layout_marginTop="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-Lawn Edging"
+                android:text="Lawn Edging"
                 android:textSize="14dp"
 
                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"                android:layout_marginTop="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trimming Trees"
+                android:textSize="14dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lawn Mowing"
+                android:textSize="14dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"
 
                 android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-Trimming Trees"
+                android:text="Plant Waste Disposal"
                 android:textSize="14dp"
 
                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"
 
                 android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-Lawn Mowing"
+                android:text="Lawn Insect Control"
                 android:textSize="14dp"
 
                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
 
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"
                 android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-Plant Waste Disposal"
+                android:text="Dead Leaves Removal"
                 android:textSize="14dp"
 
                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
 
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"
                 android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-Lawn Insect Control"
+                android:text="Potted Plants Maintenance (Watering, cutting  edges, waste disposal etc...)"
                 android:textSize="14dp"
 
                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
 
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"
                 android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-Dead Leaves Removal"
+                android:text="Irrigation System Checking"
                 android:textSize="14dp"
 
                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_marginLeft="20dp"
+                android:text="•"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
 
+
+                />
+
+            <TextView
+                android:layout_marginLeft="3dp"
                 android:layout_marginTop="1dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-Potted Plants Maintenance (Watering, cutting  edges, waste disposal etc...)"
-                android:textSize="14dp"
-
-                />
-            <TextView
-                android:layout_marginLeft="20dp"
-
-                android:layout_marginTop="1dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-Irrigation System Checking"
-                android:textSize="14dp"
-
-                />
-            <TextView
-                android:layout_marginLeft="20dp"
-
-                android:layout_marginTop="1dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-Weeds Removal"
+                android:text="Weeds Removal"
                 android:textSize="14dp"
                 />
+        </LinearLayout>
         </LinearLayout>
 
         <LinearLayout

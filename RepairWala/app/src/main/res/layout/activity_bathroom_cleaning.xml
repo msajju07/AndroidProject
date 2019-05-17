@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PaintingService">
-
+    tools:context=".BathroomCleaning">
     <LinearLayout
         android:id="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="69dp"
-        android:background="#E6BB0C"
+        android:background="#69A34F"
         android:paddingTop="20dp">
 
 
@@ -29,7 +28,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingLeft="40dp">
+            android:paddingLeft="50dp"
+            >
 
             <TextView
 
@@ -38,12 +38,12 @@
                 android:fontFamily="sans-serif-medium"
 
                 android:paddingTop="10dp"
-                android:text="Interior House Painting"
+                android:text="Bathroom Deep Cleaning"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#000000"
                 android:textSize="19dp"
-              />
+                />
 
         </LinearLayout>
     </LinearLayout>
@@ -79,7 +79,7 @@
 
                     android:scaleType="fitXY"
 
-                    android:src="@drawable/painting" />
+                    android:src="@drawable/bcleaning" />
             </LinearLayout>
 
 
@@ -101,38 +101,11 @@
                     android:padding="3dp"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
-                    android:text="Standard Interior Painting Includes:"
+                    android:text="Bathroom Deep Cleaning Includes:"
                     android:textSize="14dp"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif"
                     />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="16dp"
-
-
-                        />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-
-                    android:text="Best in class professional specialist"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -149,216 +122,138 @@
 
 
                         />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pre-paint Premise arrangement"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="16dp"
-
-
-                        />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-
-                    android:layout_marginTop="1dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Surface Preparation and Minor Crack Repair"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="16dp"
-
-
-                        />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-                    android:layout_marginTop="1dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Paint Application - Jotun Fenomatic or similar (off-white and white only)"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="16dp"
-
-
-                        />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-
-                    android:layout_marginTop="1dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Post-Paint Cleanup and work completion report"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
 
                 <TextView
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="Cleaning of light fixtures, plumbing fixtures, and geysers"
+                    android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Extra Charges Apply for:"
+                    android:textSize="14dp"
+
+                    />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:padding="3dp"
+                    android:text="Cleaning of windows and ventilators, ceiling fans, exhaust fans, kitchen tiles and switchboards"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+
+                    />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:padding="3dp"
+                    android:text="Chemical cleaning based on type pf material like granite, marble, steel, or metal surfaces"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:padding="3dp"
+                    android:text="Grout, grime removal and tile scrubbing "
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+
+
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="•"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <TextView
+                        android:padding="3dp"
+                    android:text="Walls dustinf and wet cleaning"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+
+                    />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="*Cleaning of utensils is not included"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:textSize="14dp"
                     android:textStyle="bold"
-                    android:fontFamily="sans-serif"
-
                     />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="16dp"
-
-
-                        />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-
-                    android:layout_marginTop="3dp"
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:text="Specail requests for colored walls will be priced based on survey and choice of customer"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="16dp"
-
-
-                        />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Major Cracks Repair/Wet wall repair"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="16dp"
-
-
-                        />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="280dp"
-                    android:layout_height="wrap_content"
-                    android:text="Prices for other colors than off-white and white will be shared post survey as a quote"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:text="•"
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="16dp"
-
-
-                        />
-
-                    <TextView
-                        android:layout_marginLeft="3dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Ceilings and Balcony"
-                    android:textSize="14dp"
-
-                    />
-                </LinearLayout>
 
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="90dp"></LinearLayout>
@@ -370,7 +265,8 @@
         android:layout_marginLeft="4dp"
         android:layout_marginTop="560dp"
         android:layout_marginRight="4dp"
-        android:background="#E6BB0C"
+
+        android:background="#69A34F"
         android:fadeScrollbars="false"
         android:gravity="center"
         android:text="Continue"

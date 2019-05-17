@@ -17,4 +17,23 @@ public class CleaningService extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void HCleaningClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),HouseCleaning.class);
+        startActivity(intent);
+
+    }
+    public void FCleaningClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),FurnitureCleaning.class);
+        startActivity(intent);
+
+    }
+    public void KCleaningClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),KitchenCleaning.class);
+        startActivity(intent);
+
+    } public void BCleaningClick(View v){
+        Intent intent =  new Intent(getApplicationContext(),BathroomCleaning.class);
+        startActivity(intent);
+
+    }
 }
