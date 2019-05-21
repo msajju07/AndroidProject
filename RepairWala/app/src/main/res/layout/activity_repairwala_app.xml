@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".register"
+    tools:context=".repairwala_app"
     android:background="#03A9F4"
     android:orientation="vertical"
     android:padding="8dp">
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Serviceman"
+        android:text="Application"
         android:textStyle="bold"
         android:textSize="25dp"
         android:textColor="#fafafa"/>
@@ -32,50 +32,27 @@
         android:layout_marginTop="40dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp" >
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:padding="10dp"
-            android:hint="Your Name"
-            android:backgroundTint="#ffff"
-            android:drawableRight="@drawable/person"
-            android:drawableTint="#ffff"
-            android:textColorHint="#fafafa"
-            android:drawablePadding="15dp"
-            android:inputType="textPersonName"
-            android:fontFamily="sans-serif"
-            android:layout_marginBottom="10dp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:padding="10dp"
-            android:backgroundTint="#ffff"
-            android:inputType="textEmailAddress"
-            android:drawableRight="@drawable/pw"
-            android:drawableTint="#ffff"
-            android:textColorHint="#fafafa"
-            android:drawablePadding="15dp"
-            android:fontFamily="sans-serif"
-            android:hint="Password"/>
+
 
         <Button
-            android:onClick="Registeration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#01A8F7"
             android:background="#fafafa"
-            android:text="LOGIN"
-            android:textSize="20dp"
+            android:text="CUSTOMER"
+            android:textSize="18dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#01A8F7"
+            android:background="#fafafa"
+            android:text="SERVICE PROVIDER"
+            android:textSize="18dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Forgot Password ?"
-            android:textSize="16dp"
-            android:textColor="#fafafa"/>
 
     </LinearLayout>
 
