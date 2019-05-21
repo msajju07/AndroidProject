@@ -9,18 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AcThermoInstall"
-            android:theme="@style/AppTheme.NoActionBar11"
-            ></activity>
-        <activity android:name=".AcDuctCleaning"
-            android:theme="@style/AppTheme.NoActionBar11"
-            />
-        <activity android:name=".AcSCleaning"
-            android:theme="@style/AppTheme.NoActionBar11"/>
-        <activity android:name=".AcDCleaning"
-            android:theme="@style/AppTheme.NoActionBar11"/>
-        <activity android:name=".AcMaintenace"
-            android:theme="@style/AppTheme.NoActionBar11"/>
+        <activity
+            android:name=".AcThermoInstall"
+            android:theme="@style/AppTheme.NoActionBar11" />
+        <activity
+            android:name=".AcDuctCleaning"
+            android:theme="@style/AppTheme.NoActionBar11" />
+        <activity
+            android:name=".AcSCleaning"
+            android:theme="@style/AppTheme.NoActionBar11" />
+        <activity
+            android:name=".AcDCleaning"
+            android:theme="@style/AppTheme.NoActionBar11" />
+        <activity
+            android:name=".AcMaintenace"
+            android:theme="@style/AppTheme.NoActionBar11" />
         <activity
             android:name=".BathroomCleaning"
             android:theme="@style/AppTheme.NoActionBar1" />
