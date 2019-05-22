@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".navigation"
             android:label="@string/title_activity_navigation"
@@ -16,6 +17,9 @@
         <activity
             android:name=".gardenservice"
             android:theme="@style/AppTheme.NoActionBar8" />
+        <activity android:name=".repairwala_app"></activity>
+        <activity android:name=".serviceman_login" />
+
         <activity
             android:name=".AcThermoInstall"
             android:theme="@style/AppTheme.NoActionBar11" />
