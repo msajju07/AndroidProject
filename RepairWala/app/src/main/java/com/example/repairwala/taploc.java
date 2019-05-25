@@ -17,12 +17,16 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
 import java.util.Calendar;
 import java.util.EmptyStackException;
 
 public class taploc extends AppCompatActivity {
-    TextView textView,ddate,dtime;
+    public static String add,service,unit;
+
+    public static String sertype,price,sprovider;
+    TextView textView,ddate,dtime,s1,s2;
     LinearLayout layout1,layout2,l1,l2,getdate,gettime;
     Button button;
     private static final String TAG ="GETDATE";
@@ -51,13 +55,27 @@ public class taploc extends AppCompatActivity {
         layout1.setVisibility(View.INVISIBLE);
         layout2.setVisibility(View.INVISIBLE);
         button.setVisibility(View.INVISIBLE);
+        s1 = findViewById(R.id.service1);
+        s2 = findViewById(R.id.service2);
 
 
 
 
         Intent intent = getIntent();
-        String add= intent.getStringExtra("location");
+        service= intent.getStringExtra("service");
+        unit= intent.getStringExtra("unit");
+        add= intent.getStringExtra("location");
+        sertype=intent.getStringExtra("servicetype");
+        this.add = add;
+        this.service=service;
+        this.unit=unit;
+        this.sertype=sertype;
+        Toast t = Toast.makeText(getApplicationContext(), ""+sertype+"",Toast.LENGTH_LONG);
+        t.show();
+
+
         textView.setText(add);
+
         if(!textView.getText().equals("")) {
             layout1.setVisibility(View.VISIBLE);
             ddate = findViewById(R.id.date);
@@ -125,8 +143,8 @@ public class taploc extends AppCompatActivity {
 
 
             //else{
-             //   layout2.setVisibility(View.VISIBLE);
-           // }
+            //   layout2.setVisibility(View.VISIBLE);
+            // }
 
 
             l1.setOnClickListener(new View.OnClickListener() {
@@ -138,8 +156,12 @@ public class taploc extends AppCompatActivity {
                         l2.setBackgroundColor(Color.parseColor("#FFFFFF"));
 
 
+
                     }
+                    sprovider="Master Service";
+                    price="RS 10000";
                     button.setVisibility(View.VISIBLE);
+
 
                 }
             });
@@ -156,9 +178,13 @@ public class taploc extends AppCompatActivity {
 
                     }
                     button.setVisibility(View.VISIBLE);
+                    sprovider="Expert Technicians";
+                    price="RS 50000";
 
                 }
             });
+
+
         }
 
 
@@ -173,15 +199,36 @@ public class taploc extends AppCompatActivity {
 
 
     public void tap4add(View v){
-        Intent intent =  new Intent(getApplicationContext(),addDetail.class);
-        startActivity(intent);
+        Intent intent;
 
+        intent =  new Intent(taploc.this,addDetail.class);
+        intent.putExtra("location",add);
+        intent.putExtra("service",service);
+        intent.putExtra("unit",unit);
+        intent.putExtra("servicetype",sertype);
+
+        startActivity(intent);
     }
 
     public void checkout(View v){
-        Intent intent =  new Intent(getApplicationContext(),reviewRequest.class);
-        startActivity(intent);
+        Intent intent;
 
+
+
+        intent =  new Intent(taploc.this,reviewRequest.class);
+        intent.putExtra("location",add);
+        intent.putExtra("service",service);
+        intent.putExtra("unit",unit);
+        intent.putExtra("date",ddate.getText());
+        intent.putExtra("time",dtime.getText());
+        intent.putExtra("serviceprovider",sprovider);
+
+        intent.putExtra("servicetype",sertype);
+        intent.putExtra("price",price);
+
+
+
+        startActivity(intent);
     }
 
     public boolean onSupportNavigateUp() {
