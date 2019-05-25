@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".reviewRequest"
+    android:background="#2FA29797"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="500dp"
+
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:background="#fff"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ordered Service:"
+                android:textSize="16dp"
+                 />
+
+            <TextView
+                android:id="@+id/oService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+<LinearLayout
+    android:layout_marginTop="7dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Units - "
+                android:textColor="#EB0A0A0A"
+                android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#E6333333"
+        android:textSize="16dp" />
+
+</LinearLayout>
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="110dp"
+                android:layout_height="2dp"
+                android:background="#C3C3C3"
+                />
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location:"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:id="@+id/rlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp"
+                 />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service provider:"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:id="@+id/sprovider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service type:"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:id="@+id/stype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scheduled date &amp; time:"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:id="@+id/datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Cost:"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            />
+
+                <TextView
+                    android:layout_marginLeft="164dp"
+                    android:id="@+id/sprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RS 10000"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Cost:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="138dp"
+                    android:id="@+id/tprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RS 10000"
+                    android:textStyle="bold"
+                    android:textColor="#27AAE1"
+                    android:textSize="25dp"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    <TextView
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All prices include vaild VAT"
+        android:textSize="14dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"></LinearLayout>
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="420dp"
+        android:background="#ffff"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/qm"
+        android:tint="#63FFFFFF"
+        android:layout_marginTop="22dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="-48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ccard"
+                android:tint="#36D1CECE"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit card"
+                android:textSize="11dp"
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/cash"
+                android:tint="#36D1CECE"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash on Delivery"
+                android:textSize="11dp"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="19dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="#27AAE1"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:text="Submit Order"
+            android:textStyle="bold"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
