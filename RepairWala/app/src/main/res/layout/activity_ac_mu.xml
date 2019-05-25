@@ -9,160 +9,163 @@
     tools:context=".AcMu">
     <TextView
         android:id="@+id/txt"
-    android:layout_width="match_parent"
-    android:layout_height="40dp"
-    android:paddingTop="5dp"
-    android:paddingLeft="15dp"
-    android:textSize="14dp"
-    android:gravity="center_vertical"
-    android:text="How many units do you want for AC Maintenance?"
-
-    />
-
-<LinearLayout
-    android:gravity="center_vertical"
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:orientation="horizontal"
-    android:layout_below="@id/txt"
-    android:background="#AEFFFFFF"
-    android:onClick="noofunit"
-
-    >
-    <TextView
-        android:gravity="center_vertical"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-         android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
         android:paddingLeft="15dp"
-        android:textStyle="bold"
-        android:textSize="15dp"
-        android:text="Number of Units"
-        android:textAllCaps="false" />
-
-    <TextView
-        android:id="@+id/noun"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:layout_marginLeft="8dp"
-        android:textSize="17dp" />
-
-    <ImageView
-        android:layout_width="14dp"
-        android:layout_height="14dp"
-        android:layout_marginLeft="10dp"
-        android:src="@drawable/next"
-        android:tint="#201F1F" />
-
-</LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="500dp"
-    android:layout_marginTop="410dp"
-    android:background="#ffff"
-    android:orientation="vertical"
-    >
-    <ImageView
-        android:onClick="ondailog"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:src="@drawable/qm"
-        android:layout_gravity="center"
-        android:tint="#63FFFFFF"
-        android:layout_marginTop="25dp"
-
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:text="How many units do you want for AC Maintenance?"
 
         />
 
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_marginTop="-45dp"
-        android:gravity="center"
-        >
-
-    <LinearLayout
-        android:layout_width="180dp"
-        android:layout_height="70dp"
-        android:orientation="vertical"
-        android:gravity="center"
-        >
-
-        <ImageView
-            android:layout_marginTop="5dp"
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:src="@drawable/sman"
-            android:tint="#27AAE1"
-            />
-        <ImageView
-            android:layout_marginTop="-25dp"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:src="@drawable/inhouse"
-            android:tint="#27AAE1"
-
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="In House"
-            android:textSize="11dp"
-            android:textColor="#27AAE1"
-            />
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="180dp"
-        android:layout_height="70dp"
-        android:orientation="vertical"
-        android:gravity="center"
-
-        >
-
-        <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:src="@drawable/c_r"
-            android:tint="#BEBEBE" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Collect &amp; return "
-            android:textSize="11dp"
-            android:textColor="#BEBEBE" />
-
-
-    </LinearLayout>
-</LinearLayout>
-    <Button
-
-        android:id="@+id/toglebtn"
+        android:gravity="center_vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/txt"
+        android:background="#AEFFFFFF"
+        android:onClick="noofunit"
 
-        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Number of Units"
+            android:textAllCaps="false" />
 
-        android:layout_marginRight="5dp"
-        android:background="#81BEBEBE"
+        <TextView
+            android:id="@+id/noun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginLeft="8dp"
+            android:textSize="17dp" />
 
-        android:text="Select a number of units"
-        android:textAllCaps="false"
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/next"
+            android:tint="#201F1F" />
 
-        android:textColor="#ffff"
-        android:textSize="18dp"
-        android:onClick="donee"
-        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="410dp"
+        android:background="#ffff"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:onClick="ondailog"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/qm"
+            android:layout_gravity="center"
+            android:tint="#63FFFFFF"
+            android:layout_marginTop="25dp"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-45dp"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/sman"
+                    android:tint="#27AAE1"
+                    />
+                <ImageView
+                    android:layout_marginTop="-25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/inhouse"
+                    android:tint="#27AAE1"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In House"
+                    android:textSize="11dp"
+                    android:textColor="#27AAE1"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+                android:gravity="center"
+
+
+                >
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/c_r"
+                    android:tint="#BEBEBE" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Collect &amp; return "
+                    android:textSize="11dp"
+                    android:textColor="#BEBEBE" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+
+            android:id="@+id/toglebtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="10dp"
+
+            android:layout_marginRight="5dp"
+            android:background="#81BEBEBE"
+
+            android:text="Select a number of units"
+            android:textAllCaps="false"
+
+            android:textColor="#ffff"
+            android:textSize="18dp"
+
+            />
 
 
 
-</LinearLayout>
+    </LinearLayout>
 
 </RelativeLayout>
 
