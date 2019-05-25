@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57BBBBBB"
+    android:orientation="vertical"
+    tools:context=".taploc">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+
+        <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:text="Select Location"
+
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@id/l1"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/txt"
+        android:background="#AEFFFFFF"
+        android:paddingLeft="10dp"
+        android:onClick="tap4add"
+        >
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/location"
+            android:tint="#21FFFFFF"
+
+            />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Tap to select location"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/next"
+            android:tint="#201F1F" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/l1"
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:text="Select start date &amp; time"
+
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/txt1"
+
+        >
+
+    <LinearLayout
+        android:id="@+id/displaydate"
+        android:layout_marginRight="1dp"
+
+        android:gravity="center_vertical"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/txt1"
+        android:background="#AEFFFFFF"
+        android:paddingLeft="10dp"
+
+        >
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/calendar"
+            android:tint="#20FFFFFF"
+
+            />
+
+        <TextView
+            android:id="@+id/date"
+            android:gravity="center_vertical"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="12dp"
+
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="Tap for date"
+            android:textAllCaps="false" />
+
+
+        <ImageView
+            android:layout_marginLeft="-25dp"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/next"
+            android:tint="#201F1F" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/displaytime"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="18dp"
+
+            android:gravity="center_vertical"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/txt1"
+            android:background="#AEFFFFFF"
+            android:paddingLeft="10dp"
+
+
+            >
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/calendar"
+                android:tint="#20FFFFFF"
+
+                />
+
+
+            <TextView
+                android:id="@+id/time"
+                android:gravity="center_vertical"
+                android:layout_width="145dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="12dp"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:text="Tap for time"
+                android:textAllCaps="false" />
+
+
+            <ImageView
+                android:layout_marginLeft="-25dp"
+                android:layout_width="12dp"
+                android:layout_height="12dp"                android:src="@drawable/next"
+                android:tint="#201F1F" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:text="Select service provider"
+
+        />
+    <LinearLayout
+    android:layout_marginTop="10dp"
+        android:id="@+id/lay1"
+
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="5dp"
+    android:layout_width="346dp"
+    android:layout_height="145dp"
+    android:background="#fff"
+    >
+    <LinearLayout
+
+        android:layout_marginLeft="3dp"
+        android:paddingTop="10dp"
+        android:background="#fff"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="20dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Master Services"
+            android:textStyle="bold"
+            android:textSize="17dp"
+
+            />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_marginLeft="95dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RS 10000"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="#27AAE1"
+                />
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="-290dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Exceptional quality engineering follow up &amp; support on all major maintenance issues. Qualified technicians. Rs 1000 charge in case of same day cancellation or no show"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="346dp"
+                android:layout_height="96dp"
+                android:background="#fff"
+                >
+
+            <LinearLayout
+
+                android:layout_marginLeft="3dp"
+                android:paddingTop="10dp"
+                android:background="#fff"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="20dp"
+                android:layout_width="340dp"
+                 android:layout_height="wrap_content">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expert Technicians"
+            android:textStyle="bold"
+            android:textSize="17dp"
+
+            />
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RS 10000"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="#27AAE1"
+            />
+
+                <TextView
+                    android:paddingLeft="5dp"
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-290dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingBottom="20dp"
+                    android:text="Spare parts will be charged separately" />
+
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#57BBBBBB"
+    >
+</LinearLayout>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/cout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="6dp"
+        android:background="#27AAE1"
+        android:text="Checkout"
+        android:textAllCaps="false"
+        android:onClick="checkout"
+        android:textColor="@android:color/background_light" />
+
+
+</RelativeLayout>
+

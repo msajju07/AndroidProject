@@ -29,4 +29,10 @@ public class AcMaintenace extends AppCompatActivity {
         return true;
     }
 
+    public void acmu(View view){
+        Intent intent =  new Intent(getApplicationContext(),AcMu.class);
+        startActivity(intent);
+
+    }
+
 }

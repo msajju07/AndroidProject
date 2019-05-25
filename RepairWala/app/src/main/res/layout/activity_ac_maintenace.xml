@@ -196,7 +196,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginTop="500dp"
         android:layout_marginRight="4dp"
-
+        android:onClick="acmu"
         android:background="#27AAE1"
         android:fadeScrollbars="false"
         android:gravity="center"
