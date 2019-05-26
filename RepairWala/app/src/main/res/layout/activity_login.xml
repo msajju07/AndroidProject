@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:padding="10dp"
-                android:hint="Phone No"
+                android:hint="Email Address"
                 android:backgroundTint="#ffff"
                 android:textColorHint="#fafafa"
                 android:drawablePadding="15dp"
@@ -49,7 +49,7 @@
                 android:layout_marginLeft="-35dp"
                 android:layout_width="20dp"
                 android:layout_height="25dp"
-                android:src="@drawable/phone"
+                android:src="@drawable/email"
                 android:tint="#FFFFFF" />
 
         </LinearLayout>
@@ -100,6 +100,7 @@
             android:layout_marginTop="60dp"
             android:layout_marginBottom="10dp">
             <Button
+                android:id="@+id/loginbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -110,7 +111,8 @@
                 android:onClick="Login"
                 />
             <Button
-                android:onClick="Register"
+                android:id="@+id/signupbtn"
+                android:onClick="Signup"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
