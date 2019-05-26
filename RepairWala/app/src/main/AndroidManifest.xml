@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".YourAvailServices"></activity>
+        <activity android:name=".ServiceManTickets"></activity>
+        <activity android:name=".ServiceManNotifications" />
+        <activity android:name=".ServiceManCalendar" />
+        <activity android:name=".ServiceManDashboard" />
+        <activity android:name=".YourAvailServices" />
         <activity android:name=".Settings" />
         <activity
             android:name=".reviewRequest"
