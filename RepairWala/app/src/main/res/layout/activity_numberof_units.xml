@@ -17,133 +17,133 @@
         android:orientation="vertical"
         >
 
-    <TextView
-        android:textStyle="bold"
-        android:id="@+id/unit1"
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:textSize="16dp"
-        android:layout_width="match_parent"
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/unit1"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
 
-        android:layout_height="50dp"
-        android:background="#FFFFFF"
-        android:foregroundTint="#00FFFFFF"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:foregroundTint="#00FFFFFF"
 
-        android:paddingTop="7dp"
-        android:text="1"
-         />
+            android:paddingTop="7dp"
+            android:text="1"
+            />
 
 
         <TextView
             android:textStyle="bold"
-        android:id="@+id/unit2"
+            android:id="@+id/unit2"
 
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="16dp"
 
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="1dp"
-        android:background="#FFFFFF"
-        android:text="2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF"
+            android:text="2"
 
-         />
+            />
         <TextView
             android:textStyle="bold"
-        android:id="@+id/unit3"
+            android:id="@+id/unit3"
 
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="16dp"
 
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="1dp"
-        android:background="#FFFFFF"
-        android:text="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF"
+            android:text="3"
 
-        />
-
-        <TextView
-            android:textStyle="bold"
-        android:id="@+id/unit4"
-
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:textSize="16dp"
-
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="1dp"
-        android:background="#FFFFFF"
-        android:text="4"
-
-        />
-        <TextView
-            android:textStyle="bold"
-        android:id="@+id/unit5"
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:textSize="16dp"
-
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="1dp"
-        android:background="#FFFFFF"
-        android:text="5"
-
-        />
+            />
 
         <TextView
             android:textStyle="bold"
-        android:id="@+id/unit6"
+            android:id="@+id/unit4"
 
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="16dp"
 
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="1dp"
-        android:background="#FFFFFF"
-        android:text="6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF"
+            android:text="4"
 
-        />
+            />
         <TextView
             android:textStyle="bold"
-        android:id="@+id/unit7"
+            android:id="@+id/unit5"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="16dp"
 
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF"
+            android:text="5"
 
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="1dp"
-        android:background="#FFFFFF"
-        android:text="7"
-
-        />
+            />
 
         <TextView
             android:textStyle="bold"
-        android:id="@+id/unit8"
+            android:id="@+id/unit6"
 
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="1dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="16dp"
 
-        android:background="#FFFFFF"
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:text="8"
-        android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF"
+            android:text="6"
 
-        />
+            />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/unit7"
+
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="16dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF"
+            android:text="7"
+
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/unit8"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="8"
+            android:textSize="16dp"
+
+            />
 
 
 
-</LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>

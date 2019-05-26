@@ -7,13 +7,18 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class AcMu extends AppCompatActivity {
     private Button button;
     TextView textView;
+    public static String service;
+    public static String nunit;
+    public static String stype;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,17 +33,43 @@ public class AcMu extends AppCompatActivity {
         button = findViewById(R.id.toglebtn);
         textView = findViewById(R.id.noun);
         Intent intent = getIntent();
-        String nunit= intent.getStringExtra("unit");
+        nunit= intent.getStringExtra("unit");
+        service= intent.getStringExtra("service");
+        stype= intent.getStringExtra("servicetype");
+
+        this.service=service;
+        this.nunit=nunit;
+        this.stype=stype;
+
+        Toast t = Toast.makeText(getApplicationContext(), ""+stype+"",Toast.LENGTH_LONG);
+        t.show();
 
         textView.setText(nunit);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent;
+
+                intent =  new Intent(AcMu.this,taploc.class);
+                intent.putExtra("service",service);
+                intent.putExtra("unit",textView.getText());
+                intent.putExtra("servicetype","On-site");
+                startActivity(intent);
+
+            }
+        });
+
+
         if(!textView.getText().equals("")){
             button.setEnabled(true);
             button.setBackgroundColor(Color.parseColor("#27AAE1"));
             button.setText("Continue");
 
         }
-    else{
-        button.setEnabled(false);
+        else{
+            button.setEnabled(false);
         }
 
         //  button.setEnabled(false);
@@ -57,7 +88,7 @@ public class AcMu extends AppCompatActivity {
         oK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            dialog.cancel();
+                dialog.cancel();
 
             }
         });
@@ -66,14 +97,27 @@ public class AcMu extends AppCompatActivity {
 
 
     public void noofunit(View view){
-        Intent intent =  new Intent(getApplicationContext(),numberofUnits.class);
+
+        Intent intent;
+
+        intent =  new Intent(AcMu.this,numberofUnits.class);
+        intent.putExtra("service",service);
+        intent.putExtra("unit",service);
+        intent.putExtra("servicetype","On-site");
         startActivity(intent);
+
 
     }
 
 
     public void donee(View view){
-        Intent intent =  new Intent(getApplicationContext(),taploc.class);
+
+        Intent intent;
+
+        intent =  new Intent(AcMu.this,taploc.class);
+        intent.putExtra("service",service);
+        intent.putExtra("unit",service);
+        intent.putExtra("servicetype","On-site");
         startActivity(intent);
 
     }

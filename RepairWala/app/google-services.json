@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "221331425345",
-    "firebase_url": "https://repairwala-50dd2.firebaseio.com",
-    "project_id": "repairwala-50dd2",
-    "storage_bucket": "repairwala-50dd2.appspot.com"
+    "project_number": "862241465716",
+    "firebase_url": "https://repairwala-1c674.firebaseio.com",
+    "project_id": "repairwala-1c674",
+    "storage_bucket": "repairwala-1c674.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:221331425345:android:588b4f7049698009",
+        "mobilesdk_app_id": "1:862241465716:android:588b4f7049698009",
         "android_client_info": {
           "package_name": "com.example.repairwala"
         }
       },
       "oauth_client": [
         {
-          "client_id": "221331425345-3cu9arsh92k81jiv7geeqevpgcrf3vgk.apps.googleusercontent.com",
+          "client_id": "862241465716-jat5q7ggknvpmoqr814kv69r9kjr9qf1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.repairwala",
-            "certificate_hash": "498c878afc9b16cac8c5e7b0f8eead1ec5df6d7c"
+            "certificate_hash": "e53b7eb4a9560fe7d4ecf8f85ccf23b4b61395f8"
           }
         },
         {
-          "client_id": "221331425345-kfnk0d24ood2avuui8970pffb089b6ep.apps.googleusercontent.com",
+          "client_id": "862241465716-d45125fsga41r79s728c5o674nkqj34u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD4gLgYC5BvXM-sMuHKi4k4RtHD9I960wA"
+          "current_key": "AIzaSyAdA2_-_gfv_2QXawT9ncU8i0fmGlAufAU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "221331425345-kfnk0d24ood2avuui8970pffb089b6ep.apps.googleusercontent.com",
+              "client_id": "862241465716-d45125fsga41r79s728c5o674nkqj34u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

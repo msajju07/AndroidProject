@@ -21,6 +21,8 @@ public class AcMaintenace extends AppCompatActivity {
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#27AAE1")));
 
+
+
     }
 
 
@@ -30,7 +32,10 @@ public class AcMaintenace extends AppCompatActivity {
     }
 
     public void acmu(View view){
+
         Intent intent =  new Intent(getApplicationContext(),AcMu.class);
+        intent.putExtra("service","AC Maintenance");
+
         startActivity(intent);
 
     }
