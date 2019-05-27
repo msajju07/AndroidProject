@@ -23,7 +23,7 @@
         android:layout_height="85dp"
         android:layout_gravity="center"
         android:layout_marginTop="180dp"
-        android:indeterminateTint="@color/progress"
+        android:indeterminateTint="#fff"
         android:paddingTop="20dp">
 
     </ProgressBar>

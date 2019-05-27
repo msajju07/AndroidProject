@@ -31,8 +31,6 @@ public class serviceman_login extends AppCompatActivity {
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
         mAuth = FirebaseAuth.getInstance();
     }
-
-
         private void servicemanlogin () {
             String eaddress = emailtxt.getText().toString().trim();
             String password = passwordtxt.getText().toString().trim();
