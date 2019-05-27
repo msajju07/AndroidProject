@@ -81,11 +81,14 @@
         <item name="colorPrimaryDark">#03A9F4</item>
       </style>
 
-
     <style name="AppTheme.NoActionBar">
         <item name="colorPrimaryDark">#03A9F4</item>
 
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
