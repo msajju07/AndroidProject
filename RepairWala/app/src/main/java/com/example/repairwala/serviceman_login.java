@@ -12,8 +12,13 @@ public class serviceman_login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_serviceman_login);
     }
-    public void serviceManD(View v){
-        Intent intent =  new Intent(getApplicationContext(),Dashboard.class);
+//    public void serviceManD(View v){
+//        Intent intent =  new Intent(getApplicationContext(),Dashboard.class);
+//        startActivity(intent);
+//
+//    }
+    public void SLogin(View v){
+        Intent intent =  new Intent(getApplicationContext(),ServiceManDashboard.class);
         startActivity(intent);
 
     }

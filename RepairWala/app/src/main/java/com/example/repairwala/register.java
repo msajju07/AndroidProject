@@ -82,10 +82,6 @@ public class register extends AppCompatActivity implements View.OnClickListener 
         }
 
 
-
-
-
-
     @Override
     public void onClick(View v) {
 
@@ -93,5 +89,9 @@ public class register extends AppCompatActivity implements View.OnClickListener 
 
     }
 
-        }
+    public void SLogin(View view) {
+        Intent intent =  new Intent(getApplicationContext(),serviceman_login.class);
+        startActivity(intent);
+    }
+}
 
