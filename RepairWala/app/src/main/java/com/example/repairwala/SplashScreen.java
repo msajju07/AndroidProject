@@ -31,7 +31,7 @@ public class SplashScreen extends AppCompatActivity {
                 finish();
 
                 // Start MainActivity.class
-               Intent myIntent = new Intent(SplashScreen.this,repairwala_app.class);
+               Intent myIntent = new Intent(SplashScreen.this,showservicesrecord.class);
 
            //        Intent myIntent = new Intent(SplashScreen.this,AcMaintenace.class);
                 startActivity(myIntent);

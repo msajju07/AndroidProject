@@ -41,9 +41,6 @@ public class AcMu extends AppCompatActivity {
         this.nunit=nunit;
         this.stype=stype;
 
-        Toast t = Toast.makeText(getApplicationContext(), ""+stype+"",Toast.LENGTH_LONG);
-        t.show();
-
         textView.setText(nunit);
 
         button.setOnClickListener(new View.OnClickListener() {

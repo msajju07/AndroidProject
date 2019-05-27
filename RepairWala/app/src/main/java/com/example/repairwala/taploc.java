@@ -70,8 +70,6 @@ public class taploc extends AppCompatActivity {
         this.service=service;
         this.unit=unit;
         this.sertype=sertype;
-        Toast t = Toast.makeText(getApplicationContext(), ""+sertype+"",Toast.LENGTH_LONG);
-        t.show();
 
 
         textView.setText(add);
@@ -179,7 +177,7 @@ public class taploc extends AppCompatActivity {
                     }
                     button.setVisibility(View.VISIBLE);
                     sprovider="Expert Technicians";
-                    price="RS 50000";
+                    price="RS 5000";
 
                 }
             });

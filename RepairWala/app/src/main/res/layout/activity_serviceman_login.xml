@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".register"
+    tools:context=".serviceman_login"
     android:background="#03A9F4"
     android:orientation="vertical"
     android:padding="8dp">
@@ -41,14 +41,15 @@
 
 
         <EditText
+            android:id="@+id/emailtext"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:padding="10dp"
-            android:hint="User Name"
+            android:hint="Email Address"
             android:backgroundTint="#ffff"
             android:textColorHint="#fafafa"
             android:drawablePadding="15dp"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:fontFamily="sans-serif"
             android:layout_marginBottom="10dp"/>
 
@@ -70,11 +71,12 @@
             >
 
         <EditText
+            android:id="@+id/textpassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:padding="10dp"
             android:backgroundTint="#ffff"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
             android:textColorHint="#fafafa"
             android:drawablePadding="15dp"
             android:fontFamily="sans-serif"
@@ -93,16 +95,34 @@
 
     </LinearLayout>
 
-        <Button
-            android:onClick="serviceManD"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#01A8F7"
-            android:background="#fafafa"
-            android:text="LOGIN"
-            android:textSize="20dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="10dp"/>
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="#fafafa"
+                android:background="#49c4ff"
+                android:text="Login"
+                android:textSize="17dp"
+                android:onClick="serviceman"
+                />
+            <Button
+                android:id="@+id/signupbtn"
+                android:onClick="Signup"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#49c4ff"
+                android:background="#fafafa"
+                android:textSize="17dp"
+                android:text="SignUp" />
+        </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -113,5 +133,17 @@
             android:textColor="#fafafa"/>
 
     </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/progress"
+        />
+
 
 </LinearLayout>
