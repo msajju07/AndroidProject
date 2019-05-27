@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,12 +28,16 @@ public class reviewRequest extends AppCompatActivity {
     Button sendorder;
     DatabaseReference databaseReference;
     ServiceOrder serviceOrder;
+    ProgressBar progressBar;
+
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review_request);
         serviceOrder = new ServiceOrder();
         databaseReference=FirebaseDatabase.getInstance().getReference().child("ServiceOrder");
+        progressBar = (ProgressBar) findViewById(R.id.progressbar);
 
         ActionBar actionbar=getSupportActionBar();
         actionbar.setTitle("         Review Request");
@@ -102,7 +107,10 @@ public class reviewRequest extends AppCompatActivity {
         serviceOrder.setPrice(pri);
 
         databaseReference.push().setValue(serviceOrder);
+        progressBar.setVisibility(View.VISIBLE);
+
         Toast.makeText(this,"Successfull",Toast.LENGTH_SHORT).show();
+        progressBar.setVisibility(View.GONE);
         Intent intent =  new Intent(reviewRequest.this,Dashboard.class);
         startActivity(intent);
         }

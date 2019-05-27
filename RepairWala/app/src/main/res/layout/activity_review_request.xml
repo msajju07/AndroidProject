@@ -347,6 +347,17 @@
 
             />
 
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_marginTop="-55dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/progress"
+            />
+
+
     </LinearLayout>
 
 
