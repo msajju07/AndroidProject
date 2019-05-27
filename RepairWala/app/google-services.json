@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "862241465716",
+    "firebase_url": "https://repairwala-1c674.firebaseio.com",
+    "project_id": "repairwala-1c674",
+    "storage_bucket": "repairwala-1c674.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862241465716:android:588b4f7049698009",
+        "android_client_info": {
+          "package_name": "com.example.repairwala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862241465716-jat5q7ggknvpmoqr814kv69r9kjr9qf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.repairwala",
+            "certificate_hash": "e53b7eb4a9560fe7d4ecf8f85ccf23b4b61395f8"
+          }
+        },
+        {
+          "client_id": "862241465716-d45125fsga41r79s728c5o674nkqj34u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdA2_-_gfv_2QXawT9ncU8i0fmGlAufAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862241465716-d45125fsga41r79s728c5o674nkqj34u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

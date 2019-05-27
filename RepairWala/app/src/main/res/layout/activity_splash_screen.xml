@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#27AAE1"
+    android:background="#03A9F4"
     tools:context=".SplashScreen">
 
     <ImageView
@@ -23,7 +23,7 @@
         android:layout_height="85dp"
         android:layout_gravity="center"
         android:layout_marginTop="180dp"
-        android:indeterminateTint="@color/progress"
+        android:indeterminateTint="#fff"
         android:paddingTop="20dp">
 
     </ProgressBar>

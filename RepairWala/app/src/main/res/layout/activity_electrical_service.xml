@@ -6,45 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ElectricalService">
 
-    <LinearLayout
-        android:id="@+id/l1"
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:background="#FCB44D"
-        android:paddingTop="20dp">
-
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:backgroundTint="#00FFFFFF"
-            android:onClick="Back"
-            android:scaleType="fitStart"
-            android:src="@drawable/arrow"
-            android:tint="#FFFFFF" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:paddingLeft="95dp">
-
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:fontFamily="sans-serif-medium"
-                android:paddingTop="10dp"
-                android:text="Electrical"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#000000"
-                android:textSize="19dp" />
-
-        </LinearLayout>
-    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"

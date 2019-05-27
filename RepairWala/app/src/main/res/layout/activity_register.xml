@@ -7,7 +7,9 @@
     tools:context=".register"
     android:background="#03A9F4"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="8dp"
+
+    >
 
     <ImageView
         android:layout_width="match_parent"
@@ -20,87 +22,80 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="90dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp" >
-        <EditText
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:padding="10dp"
-            android:hint="Your Name"
-            android:backgroundTint="#ffff"
-            android:drawableRight="@drawable/person"
-            android:drawableTint="#ffff"
-            android:textColorHint="#fafafa"
-            android:drawablePadding="15dp"
-            android:inputType="textPersonName"
-            android:fontFamily="sans-serif"
-            android:layout_marginBottom="10dp"/>
+            android:orientation="horizontal"
+
+            android:layout_height="50dp">
+
         <EditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:padding="10dp"
             android:backgroundTint="#ffff"
             android:inputType="textEmailAddress"
-            android:drawableRight="@drawable/email"
-            android:drawableTint="#ffff"
             android:textColorHint="#fafafa"
             android:drawablePadding="15dp"
             android:fontFamily="sans-serif"
             android:hint="Email Address"/>
-        <EditText
+            />
+
+            <ImageView
+                android:layout_marginTop="-2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-35dp"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/email"
+                android:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:padding="10dp"
-            android:inputType="phone"
-            android:backgroundTint="#ffff"
-            android:drawableRight="@drawable/ph"
-            android:drawableTint="#ffff"
-            android:textColorHint="#fafafa"
-            android:drawablePadding="15dp"
-            android:fontFamily="sans-serif"
-            android:hint="Phone Number"/>
+            android:layout_height="50dp">
+
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:padding="10dp"
             android:backgroundTint="#ffff"
             android:inputType="textPassword"
-            android:drawableRight="@drawable/pw"
-            android:drawableTint="#ffff"
             android:textColorHint="#fafafa"
             android:drawablePadding="15dp"
             android:fontFamily="sans-serif"
             android:hint="Password"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:padding="10dp"
-            android:inputType="text"
-            android:backgroundTint="#ffff"
-            android:drawableRight="@drawable/person"
-            android:drawableTint="#ffff"
-            android:textColorHint="#fafafa"
-            android:drawablePadding="15dp"
-            android:fontFamily="sans-serif"
-            android:hint="City"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:textSize="20dp"
-            android:textColor="#fafafa"
-            android:buttonTint="#fafafa"
-            android:text="TERMS &amp; CONDITIONS"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_marginTop="-2dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-35dp"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:src="@drawable/password"
+            android:tint="#FFFFFF" />
+
+    </LinearLayout>
+
         <Button
+
+            android:id="@+id/registerbtn"
             android:onClick="Registeration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#01A8F7"
             android:background="#fafafa"
-            android:text="REGISTER"
+            android:text="Signup"
+
             android:textSize="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"/>

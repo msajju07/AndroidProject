@@ -32,34 +32,69 @@
         android:layout_marginTop="40dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:padding="10dp"
-            android:hint="Your Name"
+            android:hint="User Name"
             android:backgroundTint="#ffff"
-            android:drawableRight="@drawable/person"
-            android:drawableTint="#ffff"
             android:textColorHint="#fafafa"
             android:drawablePadding="15dp"
             android:inputType="textPersonName"
             android:fontFamily="sans-serif"
             android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_marginTop="-2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-35dp"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/person"
+                android:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:padding="10dp"
             android:backgroundTint="#ffff"
             android:inputType="textEmailAddress"
-            android:drawableRight="@drawable/pw"
-            android:drawableTint="#ffff"
             android:textColorHint="#fafafa"
             android:drawablePadding="15dp"
             android:fontFamily="sans-serif"
             android:hint="Password"/>
 
+
+
+        <ImageView
+            android:layout_marginTop="-2dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-35dp"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:src="@drawable/password"
+            android:tint="#FFFFFF" />
+
+    </LinearLayout>
+
         <Button
-            android:onClick="Registeration"
+            android:onClick="serviceManD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#01A8F7"

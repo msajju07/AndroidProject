@@ -1,97 +1,95 @@
 <resources>
 
+    <style name="DatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">#27AAE1</item>
+    </style>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">#27AAE1</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar14">
+        <item name="colorPrimary">#27AAE1</item>
+        <item name="colorPrimaryDark">#27AAE1</item>
+
+    </style>
+
     <style name="AppTheme.NoActionBar1">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#69A34F</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar2">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#E8F2A65A</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar3">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#77A73F</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar4">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#E6BB0C</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar5">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#A58E5E</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar6">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#37469D</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar7">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#FCB44D</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar8">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#4CAF50</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar9">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#6FC3ED</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar10">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#69A34F</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar11">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">#27AAE1</item>
 
     </style>
+    <style name="AppTheme.NoActionBar12">
+        <item name="colorPrimaryDark">#03A9F4</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 
+    <style name="AppTheme.NoActionBar13">
+        <item name="colorPrimaryDark">#03A9F4</item>
+      </style>
 
     <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="colorPrimaryDark">#27AAE1</item>
+        <item name="colorPrimaryDark">#03A9F4</item>
 
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

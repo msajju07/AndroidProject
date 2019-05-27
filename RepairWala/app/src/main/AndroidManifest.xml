@@ -9,8 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".repairwala_app" />
-        <activity android:name=".serviceman_login" />
+        <activity android:name=".YourAvailServices"></activity>
+        <activity android:name=".Settings" />
+        <activity
+            android:name=".reviewRequest"
+            android:theme="@style/AppTheme.NoActionBar14" />
+        <activity
+            android:name=".addDetail"
+            android:theme="@style/AppTheme.NoActionBar14" />
+        <activity
+            android:name=".taploc"
+            android:theme="@style/AppTheme.NoActionBar14" />
+        <activity
+            android:name=".numberofUnits"
+            android:theme="@style/AppTheme.NoActionBar14" />
+        <activity android:name=".AcMu" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gardenservice"
+            android:theme="@style/AppTheme.NoActionBar8" />
+        <activity
+            android:name=".repairwala_app"
+            android:theme="@style/AppTheme.NoActionBar12" />
+        <activity
+            android:name=".serviceman_login"
+            android:theme="@style/AppTheme.NoActionBar12" />
         <activity
             android:name=".AcThermoInstall"
             android:theme="@style/AppTheme.NoActionBar11" />
@@ -40,7 +66,7 @@
             android:theme="@style/AppTheme.NoActionBar1" />
         <activity
             android:name=".SplashScreen"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar12">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -61,10 +87,10 @@
             android:theme="@style/AppTheme.NoActionBar6" />
         <activity
             android:name=".service_stats"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar12" />
         <activity
             android:name=".dashboard_stats"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar12" />
         <activity
             android:name=".ElectricalService"
             android:theme="@style/AppTheme.NoActionBar7" />
@@ -82,25 +108,16 @@
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
             android:name=".register"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar12" />
         <activity
             android:name=".login"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar12" />
         <activity
             android:name=".AcService"
             android:theme="@style/AppTheme.NoActionBar11" />
         <activity
             android:name=".Dashboard"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar13" />
 
         <meta-data
             android:name="preloaded_fonts"
