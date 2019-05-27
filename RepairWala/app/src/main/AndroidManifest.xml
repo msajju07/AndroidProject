@@ -9,10 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ServiceManTickets"></activity>
+        <activity android:name=".serviceman_dashboard">
+
+        </activity>
+        <activity android:name=".ServiceManProfile" />
+        <activity android:name=".ServiceManTickets" />
         <activity android:name=".ServiceManNotifications" />
-        <activity android:name=".ServiceManCalendar" />
-        <activity android:name=".ServiceManDashboard" />
+        <activity android:name=".ServiceManDashboard"
+            >
+
+        </activity>
         <activity android:name=".YourAvailServices" />
         <activity android:name=".Settings" />
         <activity
@@ -122,7 +128,6 @@
         <activity
             android:name=".Dashboard"
             android:theme="@style/AppTheme.NoActionBar13" />
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
