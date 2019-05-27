@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".reviewRequest"
+    tools:context="com.example.repairwala.reviewRequest"
     android:background="#2FA29797"
 
     >
@@ -342,9 +342,21 @@
             android:textColor="@android:color/background_light"
             android:text="Submit Order"
             android:textStyle="bold"
+            android:onClick="submit"
 
 
             />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_marginTop="-55dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/progress"
+            />
+
 
     </LinearLayout>
 

@@ -8,17 +8,20 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 
 public class register extends AppCompatActivity implements View.OnClickListener {
     private FirebaseAuth mAuth;
     EditText emailtxt,passwordtxt;
     Button btnsignup;
+    ProgressBar progressBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +29,7 @@ public class register extends AppCompatActivity implements View.OnClickListener 
 
         emailtxt = (EditText) findViewById(R.id.email);
         passwordtxt=(EditText) findViewById(R.id.password);
+        progressBar = (ProgressBar) findViewById(R.id.progressbar);
         mAuth = FirebaseAuth.getInstance();
 
     }
@@ -37,9 +41,6 @@ public class register extends AppCompatActivity implements View.OnClickListener 
 
 
         }
-
-        Intent intent =  new Intent(getApplicationContext(),Dashboard.class);
-        startActivity(intent);
 
     }
 
@@ -69,13 +70,29 @@ public class register extends AppCompatActivity implements View.OnClickListener 
             return;
         }
 
+        progressBar.setVisibility(View.VISIBLE);
         mAuth.createUserWithEmailAndPassword(eaddress,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+                progressBar.setVisibility(View.GONE);
+
            if (task.isSuccessful()){
 
+
                Toast.makeText(getApplicationContext(),"User register successfull",Toast.LENGTH_SHORT).show();
+               Intent intent =  new Intent(getApplicationContext(),login.class);
+               startActivity(intent);
+
            }
+           else{
+
+               if(task.getException() instanceof FirebaseAuthUserCollisionException){
+                    Toast.makeText(getApplicationContext(),"you are already registered",Toast.LENGTH_SHORT).show();
+
+               }
+
+           }
+
             }
         });
 
